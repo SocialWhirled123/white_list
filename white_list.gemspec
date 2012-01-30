@@ -3,6 +3,9 @@ spec = Gem::Specification.new do |s|
   s.version = '0.0.1'
   s.homepage = 'http://neubloc.com'
   s.summary = 'Gem-ed version of white_list Rails plugin '
+  s.authors = %w(Rick Olson
+                 Dima Sibanin
+                 Marcin Chrost)
   
   s.files = %w(README 
                Rakefile
