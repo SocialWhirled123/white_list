@@ -8,6 +8,8 @@ spec = Gem::Specification.new do |s|
                Rakefile
                lib/white_list.rb
                lib/white_list_helper.rb
-               test/white_list_test.rb)
+               lib/white_lister.rb
+               test/white_list_helper_test.rb
+               test/white_lister_test.rb)
   
 end
