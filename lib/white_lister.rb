@@ -27,6 +27,11 @@ class WhiteLister
     @default_white_tag_handler = lambda { |node| node }
   end
   
+  def returning(value)
+    yield(value)
+    value
+  end
+  
   def white_list(html, options = {}, &block)
     return html if html.blank? || !html.include?('<')
     attrs   = Set.new(options[:attributes]).merge(@attributes)
